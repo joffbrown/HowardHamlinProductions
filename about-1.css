@@ -1,0 +1,68 @@
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+html,
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-weight: bold;
+  background-color: lightcoral;
+  text-align: center;
+  height: 50px;
+
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+header {
+  background-color: lightblue;
+}
+
+header h1 {
+  font-size: 200%;
+  text-align: center;
+}
+
+nav a:hover {
+  color: lightblue;
+  transition-duration: 0.5s;
+}
+
+html {
+  background-color: lightblue;
+}
+
+
+
+.p1 {
+  color: peachpuff;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+  margin-left: 275px;
+  margin-top: -300px;
+}
+
+td,
+th {
+  border: 3px solid lightcoral;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+  text-align: center;
+  color: gray;
+}
